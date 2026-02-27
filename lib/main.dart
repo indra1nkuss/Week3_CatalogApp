@@ -34,10 +34,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
-      routes: {
-        '/': (context) => const MyCatalog(),
-        '/cart' (context) => const MyCart(),
-      },
+     routes: {
+  '/': (context) => const MyCatalog(),
+  '/cart': (context) => const MyCart(),
+    },
     );
   }
 }
