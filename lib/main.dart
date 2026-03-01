@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Clean Arch',
+      title: 'Calatog Belanja',
       theme: AppTheme.lightTheme,
       initialRoute: '/',
       routes: AppRouter.routes,
