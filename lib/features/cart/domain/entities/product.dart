@@ -1,3 +1,6 @@
+
+//Objek dasar aplikasi Anda.
+
 class Product {
   final String name;
 
