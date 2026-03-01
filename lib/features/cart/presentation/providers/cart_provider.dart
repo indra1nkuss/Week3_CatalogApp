@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../../domain/entities/product.dart';
 import '../../domain/repositories/cart_repository.dart';
 
+//Penghubung antara UI dan Data.
 class CartProvider extends ChangeNotifier {
   final CartRepository repository;
 
